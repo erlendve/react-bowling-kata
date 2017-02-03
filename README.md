@@ -1,5 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-It's created with the purpose of practicing Test-driven development in React with Jest+Enzyme.
+
+It's created as a template to practice Test-driven development in React with Jest+Enzyme.  
 Inspired by Uncle Bob's famous [Bowling Game Kata](http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt)
 
 # Welcome to React Bowling
@@ -12,7 +13,7 @@ but with no functionality :O
 Luckily for you they have an extensive list of requirements ready:
 
 ##Requirements
-* `rolling` Clicking any of the turquiose buttons will add the roll to the ScoreBoard
+* `rolling` Clicking any of the numbered buttons should update the scoreboard with the number of pins knocked down for the roll.
 
 * `game score` The game consists of 10 frames.  In each frame the player has
                two opportunities to knock down 10 pins.  The score for the frame is the total
@@ -48,8 +49,8 @@ See the section about running tests for more information.
 
 ##Tools for testing
 The project uses two frameworks to allow Test-driven development
-* `jest` Painless javascript testing [api documentation](https://facebook.github.io/jest/docs/api.html)
-* `enzyme` Javascript Testing Utilities for React [api documentation](http://airbnb.io/enzyme/)
+* `jest` Painless javascript testing [(api documentation)](https://facebook.github.io/jest/docs/api.html)
+* `enzyme` Javascript Testing Utilities for React [(api documentation)](http://airbnb.io/enzyme/)
 
 Jest is the default test runner with `create-react-app`. Combined with Enzyme it's a powerful toolbox to create unit tests for React Components:
 

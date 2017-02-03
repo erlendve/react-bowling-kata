@@ -4,7 +4,6 @@
     <list default="true" id="8c077e9c-38b0-4bbe-8415-359051691842" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ScoreBoard.test.js" afterPath="$PROJECT_DIR$/src/ScoreBoard.test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -118,11 +117,11 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+              <first_editor relative-caret-position="-420">
+                <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
                 <folding>
-                  <marker date="1486122240021" expanded="true" signature="2679:2767" ph="{...}" />
-                  <marker date="1486122240021" expanded="true" signature="2829:2921" ph="{...}" />
+                  <marker date="1486122691171" expanded="true" signature="2724:2812" ph="{...}" />
+                  <marker date="1486122691171" expanded="true" signature="2874:2966" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -365,7 +364,7 @@
       <workItem from="1485895090487" duration="23372000" />
       <workItem from="1485973825588" duration="18229000" />
       <workItem from="1486115500316" duration="2138000" />
-      <workItem from="1486119845953" duration="2403000" />
+      <workItem from="1486119845953" duration="2862000" />
     </task>
     <task id="LOCAL-00001" summary="added/removed files to make project 'Kata' ready">
       <created>1486121462221</created>
@@ -374,11 +373,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486121462221</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated readme">
+      <created>1486122282253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486122282253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46142000" />
+    <option name="totallyTimeSpent" value="46601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -411,7 +417,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added/removed files to make project 'Kata' ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="added/removed files to make project 'Kata' ready" />
+    <MESSAGE value="updated readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -498,8 +505,8 @@
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
             <folding>
-              <marker date="1486122240021" expanded="true" signature="2679:2767" ph="{...}" />
-              <marker date="1486122240021" expanded="true" signature="2829:2921" ph="{...}" />
+              <marker date="1486122691171" expanded="true" signature="2724:2812" ph="{...}" />
+              <marker date="1486122691171" expanded="true" signature="2874:2966" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -754,11 +761,11 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="65" column="3" lean-forward="true" selection-start-line="65" selection-start-column="3" selection-end-line="65" selection-end-column="3" />
+          <first_editor relative-caret-position="-420">
+            <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
             <folding>
-              <marker date="1486122240021" expanded="true" signature="2679:2767" ph="{...}" />
-              <marker date="1486122240021" expanded="true" signature="2829:2921" ph="{...}" />
+              <marker date="1486122691171" expanded="true" signature="2724:2812" ph="{...}" />
+              <marker date="1486122691171" expanded="true" signature="2874:2966" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -768,8 +775,8 @@
         <state relative-caret-position="-21">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <marker date="1486122240021" expanded="true" signature="2679:2767" ph="{...}" />
-            <marker date="1486122240021" expanded="true" signature="2829:2921" ph="{...}" />
+            <marker date="1486122691171" expanded="true" signature="2724:2812" ph="{...}" />
+            <marker date="1486122691171" expanded="true" signature="2874:2966" ph="{...}" />
           </folding>
         </state>
       </provider>
