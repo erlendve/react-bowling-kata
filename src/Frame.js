@@ -1,29 +1,12 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 
-const Frame = ({rollOne, rollTwo, score}) => {
-  const lastRoll = () => {
-    if (rollOne === 10) {
-      return <span className="strike"/>
-    } else if ((rollOne + rollTwo) === 10) {
-      return <span className="spare"/>
-    }
-
-    return <span>{rollTwo === 0 ? "-" : rollTwo}</span>;
-  };
-
+const Frame = () => {
   return (
   <div className="frame">
-    <span>{rollOne === 0 ? "-" : rollOne}</span>
-    {lastRoll()}
-    <p>{score ? score : ""}</p>
+    <span>5</span>
+    <span>4</span>
+    <p>9</p>
   </div>
   );
 };
-
-Frame.propTypes = {
-  rollOne: PropTypes.number,
-  rollTwo: PropTypes.number,
-  score: PropTypes.number
-}
-
 export default Frame;
