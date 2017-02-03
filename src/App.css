@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App h1, h2, h3, h3 {
+  color: white;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 120px;
+  padding: 20px;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.rolls {
+  margin-top: 30px;
+}
+
+.rolls button {
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 1px solid #222;
+  background-color: darkturquoise;
+  font-size: 16px;
+}
+
+.rolls button:hover {
+  background-color: #3cb0fd;
+}
+.rolls button:active:focus {
+  background-color: #333;
+  color: white;
+}
+
+.frames {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.frame {
+  position: relative;
+  border: 1px solid black;
+  margin-right: 1px;
+  width: 70px;
+  height: 70px;
+  background-color: #333;
+  color: white;
+}
+
+.frame span {
+  padding: 4px 6px 4px 6px;
+  font-size: 18px;
+  float: left;
+  display:inline-block;
+}
+
+.frame span:nth-child(2):not(:empty) {
+  padding: 4px 8px 4px 8px;
+  float: right;
+  border-left: 2px solid #222;
+  border-bottom: 2px solid #222;
+}
+
+.frame span.spare {
+  margin: 3px;
+  display: inline-block;
+  float: right;
+  border-right: 20px solid darkturquoise;
+  border-top: 20px solid #333;
+  padding: 0;
+}
+
+.frame span.strike {
+  margin: 3px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  float: right;
+  background-color: darkturquoise;
+  padding: 0;
+}
+
+.frame p {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 26px;
+}
