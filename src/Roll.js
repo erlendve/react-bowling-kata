@@ -1,15 +1,14 @@
 import React, {PropTypes} from 'react';
 
-const Roll = ({number,onClick}) => (
+const Roll = ({number}) => (
   <button
-    type="button"  onClick={onClick}>
+    type="button">
     {number}
   </button>
 );
 
 Roll.propTypes = {
-  number: PropTypes.number.isRequired,
-  onClick:PropTypes.func.isRequired
+  number: PropTypes.number.isRequired
 };
 
 export default Roll;

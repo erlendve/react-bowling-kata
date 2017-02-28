@@ -1,19 +1,12 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
 
-const Frame = ({score, rollOne, rollTwo}) => {
+const Frame = () => {
   return (
   <div className="frame">
-    <span>{rollOne}</span>
-    <span>{rollTwo}</span>
-    <p>{score !== null ? score : ""}</p>
+    <span>5</span>
+    <span>4</span>
+    <p>9</p>
   </div>
   );
 };
-
-Frame.propTypes = {
-  score: PropTypes.number,
-  rollOne: PropTypes.number,
-  rollTwo: PropTypes.number
-};
-
 export default Frame;
