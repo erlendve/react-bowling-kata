@@ -5,7 +5,8 @@ import ScoreBoard from './ScoreBoard';
 import RollButtons from './RollButtons';
 
 function setup() {
-  return shallow(<App />);
+  let props = {onClick: jest.fn()};
+  return shallow(<App/>);
 }
 
 it('renders without crashing', () => {
@@ -21,3 +22,4 @@ it('renders a RollButtons component', () => {
   const wrapper = setup();
   expect(wrapper.find(RollButtons)).toBeDefined();
 });
+

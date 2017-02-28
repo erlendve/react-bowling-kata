@@ -12,8 +12,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo"/>
           <h2>Welcome to React Bowling</h2>
         </div>
-        <RollBoard/>
-        <ScoreBoard/>
+        <RollBoard onClick={() => {}}/>
+        <ScoreBoard rolls={[3,3,4,5, 5]}/>
       </div>
     );
   }
