@@ -1,6 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
-It's created as a template to practice Test-driven development in React with Jest+Enzyme.  
+This is a template to practice Test-driven development in React with Jest+Enzyme.
 Inspired by Uncle Bob's famous [Bowling Game Kata](http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt)
 
 # Welcome to React Bowling
@@ -10,9 +8,9 @@ You figure this could be your big break into the world of Bowling Software!
 You show up at the Bowling alley and see that they have an initial design up for their app, 
 but with no functionality :O
 
-Luckily for you they have an extensive list of requirements ready:
+As it is they have a list of requirements ready:
 
-##Requirements
+## Requirements
 * `rolling` Clicking any of the numbered buttons should update the scoreboard with the number of pins knocked down for the roll.
 
 * `game score` The game consists of 10 frames.  In each frame the player has
@@ -31,7 +29,7 @@ Luckily for you they have an extensive list of requirements ready:
                balls to complete the frame.  However no more than three balls can be rolled in
                tenth frame.
 
-##Scripts used in project
+## Scripts used in project
 In the project directory, you can run:
 
 `npm start`
@@ -47,7 +45,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.
 See the section about running tests for more information.
 
-##Tools for testing
+## Tools for testing
 The project uses two frameworks to allow Test-driven development
 * `jest` Painless javascript testing [(api documentation)](https://facebook.github.io/jest/docs/api.html)
 * `enzyme` Javascript Testing Utilities for React [(api documentation)](http://airbnb.io/enzyme/)
@@ -65,3 +63,5 @@ it('ScoreBoard should render ten Frame components', () => {
   expect(wrapper.find(Frame).length).toEqual(10);
 });
 ```
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
