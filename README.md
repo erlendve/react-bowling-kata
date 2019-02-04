@@ -1,4 +1,4 @@
-This is a template to practice Test-driven development in React with Jest+Enzyme.
+A fun template to practice Test-driven development in React with Jest+Enzyme.
 Inspired by Uncle Bob's famous [Bowling Game Kata](http://butunclebob.com/files/downloads/Bowling%20Game%20Kata.ppt)
 
 # Welcome to React Bowling
